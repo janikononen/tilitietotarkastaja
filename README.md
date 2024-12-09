@@ -1,18 +1,65 @@
-## Getting Started
+# 🛠️ Käytetyt teknologiat ja menetelmät
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ohjelmisto on toteutettu **Java-kielellä** ja hyödynnetty seuraavia teknologioita ja menetelmiä:
 
-## Folder Structure
+- **Kokoelmat ja tietorakenteet**: ArrayList, HashMap
+- **Java Stream API**: Tietojen suodattamiseen ja käsittelyyn
+- **DateTime API**: Päivämäärien käsittely (LocalDate, DateTimeFormatter)
+- **Tiedostonkäsittely**: InputStream ja Scanner luokkien avulla
+- **Olio-ohjelmointi**: Modularisointi luokkien ja metodien avulla
 
-The workspace contains two folders by default, where:
+# 💻 Ohjelmiston toiminnallisuus
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Ohjelmisto käsittelee tilitapahtumatiedostoja ja tarjoaa seuraavat ominaisuudet:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Kuukausittaisten tilitapahtumien käsittely**:
+   - Lukee tilitiedot tekstitiedostosta.
+   - Jakaa tapahtumat kuukausittaisiin kokonaisuuksiin.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **Tuloraportointi**:
+   - Laskee tuloja kuukausittain ja palauttaa tulot yhteenvedossa.
 
-## Dependency Management
+3. **Kulujen analysointi**:
+   - Erottaa kulut tiettyjen toimittajien (esim. ravintolat tai bensa-asemat) perusteella.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Vuokratulojen etsiminen**:
+   - Suodattaa ja esittää vuokratulot.
+
+5. **Tulosteet**:
+   - Tulostaa valittujen kategorioiden kulut ja kuukausittaiset tulot.
+
+# 🎓 Mitä opin ohjelmistoa tehdessä?
+
+Ohjelmistoa tehdessä sain kokemusta seuraavista asioista:
+
+- **Java-ohjelmointi**:
+  - Syvällisempi ymmärrys Stream API:sta ja sen käytöstä.
+  - Olio-ohjelmoinnin suunnittelu ja toteutus.
+
+- **Tiedon käsittely**:
+  - Tiedostojen lukeminen ja tietojen pilkkominen ohjelmallisesti.
+  - Päivämäärien ja numeerisen datan hallinta.
+
+- **Modularisointi**:
+  - Eri osien eristäminen ja uudelleenkäytettävyys.
+
+- **Debuggaus ja virheiden käsittely**:
+  - Tietorakenteiden ja tiedostomuotojen aiheuttamien virheiden korjaus.
+
+# 🔄 Jatkosovellus ja kehitysmahdollisuudet
+
+Ohjelmistoa voidaan kehittää ja laajentaa seuraavasti:
+
+- **Käyttöliittymä**:
+  - Graafinen käyttöliittymä (GUI) raporttien visualisointia varten.
+
+- **Tietojen visualisointi**:
+  - Kaavioiden ja graafien luominen kuukausittaisista tuloista ja menoista.
+
+- **Lisäominaisuudet**:
+  - Ennusteiden luominen tilitapahtumien perusteella.
+  - Kulujen budjetointi ja hälytykset ylitetyistä rajoista.
+
+- **Integraatiot**:
+  - Tuki useille tiedostoformaatille, kuten CSV tai JSON.
+  - tietokanta
